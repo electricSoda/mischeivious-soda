@@ -3470,7 +3470,7 @@
 
 	setInterval(exportBoard, 60000);
 
-	window.addEventListener("beforeunload", () => exportBoard);
+	window.addEventListener("beforeunload", exportBoard);
 
 	function checkImport(foo)
 	{
